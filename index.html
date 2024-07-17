@@ -41,7 +41,7 @@
                </li>
 
                <li class="nav__item">
-                  <a href="#follow" class="nav__link">Book</a>
+                  <a href="#booknow" class="nav__link">Book</a>
                </li>
                <!-- <li class="nav__item">
                   <a href="#reviewSec" class="nav__link">Reviews</a>
@@ -287,8 +287,8 @@
                <img src="assets/img/nail8.jpg" alt="follow image" class="follow__img-3">
                <img src="assets/img/nail9.jpg" alt="follow image" class="follow__img-4">
             </div>
-            <div class="follow__content-1">
-               <div class="follow__data">
+            <div class="follow__content-1" id="booknow">
+               <div class="follow__data" >
                    <a href="https://api.whatsapp.com/send?phone=2348106443708" class="button follow__button"
                      target="_blank"><i class="fab fa-whatsapp"></i>
                      Book now
@@ -335,8 +335,27 @@
    </main>
 
    <!--==================== FOOTER ====================-->
+   <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+          <!-- <use xlink:href="#gentle-wave" x="48" y="0" fill="hsl(260, 80%, 16%)" />           -->
+          <!-- <use xlink:href="#gentle-wave" x="48" y="7" fill="hsl(328, 100%, 66%);" /> -->
+          <!-- <use xlink:href="#gentle-wave" x="48" y="5" fill="hsl(260, 100%, 66%)" /> -->
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="hsl(260, 80%, 16%)" />
+          <!-- <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(16, 0, 44, 0.3)" /> -->
+          <!-- <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(16, 0, 44)" /> -->
+      </g>
+  </svg>
+  
    <footer class="footer">
+
+
+    
       <div class="footer__container container grid">
+         
+
          <div class="footer__content grid">
             <div>
                <a href="#" class="footer__logo">The Nail Room</a>
@@ -394,8 +413,7 @@
 
                
             </ul>
-
-
+            
             <!-- <span class="footer__copy" >
                Life is too short for boring nails.
             </span> -->

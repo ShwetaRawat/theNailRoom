@@ -116,3 +116,4 @@ sr.reveal(`.health__data, .routine__data, .follow__img-4`, { origin: 'right' })
 sr.reveal(`.follow__data, .follow__content-1 img`, { interval: 100 })
 
 
+
