@@ -1249,8 +1249,8 @@ body.dark-theme {
    background-color: #292979; ; 
     color: var(--first-color-dark);
     text-align: center;
-    padding: 20px 0;
-    /* padding-block: 5rem 3rem; */
+    /* padding: 20px 0; */
+    padding-block: 5rem 3rem;
 }
   /* .footer { */
   /* padding top: 5rem | padding bottom: 3rem */
@@ -1262,6 +1262,7 @@ body.dark-theme {
 
   .footer__content {
     padding-bottom: 3rem;
+    text-align: left;
   }
 
   .footer__data {
